@@ -2,7 +2,7 @@
 
 The scripts to produce these results are in the repository Benchmark (https://github.com/SarahStrobel/Benchmark).
 
-== Bacillus subtilis
+## Bacillus subtilis
 
 The following files have the predicted terminators for Bacillus subtilis is various forms.
 
