@@ -8,7 +8,7 @@ The following files have the predicted terminators for Bacillus subtilis is vari
 
 File 1
 The set of termination positions based on TermSeq data, but not including predictions that overlap with known terminators or overlap genes.  These are the actual nucleotide positions between which termination is supposed to occur.  NOTE: the strand information is not indicated, but the classification.py script could be augmented to include this.
-in BED format: Results/Classification/wholeGenome_filtered_trim_scaled_BS_predictedNegatives_NO_knownTerminators_NO_genes.bed
+in [BED format](https://en.wikipedia.org/wiki/BED_%28file_format%29): Results/Classification/wholeGenome_filtered_trim_scaled_BS_predictedNegatives_NO_knownTerminators_NO_genes.bed
 
 File 2
 The set of terminators.  These are the same positions as within File 1 (wholeGenome_filtered_trim_scaled_BS_predictedNegatives_NO_knownTerminators_NO_genes.bed) but add 17 nucleotides downstream (to be sure to fully get the poly-U) and 82 nt upstream (to hopefully include the hairpin) so that there are 100 nucleotides in total.  The strand is indicated by '+' or '-' in the last character of each line.
